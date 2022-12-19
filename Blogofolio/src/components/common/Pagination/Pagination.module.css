@@ -1,0 +1,133 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 32px 0 72px 0;
+}
+.paginationArticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 72px 0 72px 0;
+}
+.modal {
+    max-width: 736px;
+    padding: 47px 0 40px 0;
+    border-bottom: 2px solid #DADADA;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.blockLeft, .blockRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+.blockLeft {
+    align-items: flex-start;
+    padding-left: 13px;
+}
+
+.blockRight {
+    align-items: flex-end;
+    padding-right: 13px;
+}
+.svg {
+   fill: #313037;
+    transition: 0.3s;
+}
+.span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+    transition: 0.3s;
+}
+.button:disabled .span, .button:disabled .svg{
+    color: #8D8E97;
+    fill: #8D8E97;
+}
+.button:disabled:hover .span, .button:disabled:hover .svg{
+    color: #8D8E97;
+    fill: #8D8E97;
+}
+.button:hover .span, .button:hover .svg{
+    color: #2231AA;
+    fill: #2231AA;
+}
+
+.pages {
+    display: flex;
+    gap: 32px;
+    transition: 0.3s;
+}
+.page {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.withPoints {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.points {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-left: 32px;
+    padding-bottom: 5px;
+}
+.page:hover , .page.active{
+    color: #2231AA;
+}
+.active {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #2231AA;
+}
+.dark.active {
+    color: #5360CD;
+}
+.dark {
+    color: #FFFFFF;
+    fill: #FFFFFF;
+}
+.dark:hover {
+    color: #5360CD;
+    fill: #5360CD;
+}
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8E97;
+}

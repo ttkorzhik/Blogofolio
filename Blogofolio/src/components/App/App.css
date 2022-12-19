@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@font-face {
+  font-family: 'DINPro-Bold';
+  src: url('../../fonts/dinpro-bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../../fonts/dinpro-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+  url('../../fonts/dinpro-bold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../../fonts/dinpro-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+  url('../../fonts/dinpro-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../../fonts/dinpro-bold.svg#dinpro-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+

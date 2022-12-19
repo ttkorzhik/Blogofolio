@@ -1,0 +1,98 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+}
+.formResetAfterEmail {
+    margin-bottom: 292px;
+}
+.formSignIn {
+    margin-bottom: 152px
+}
+.formConfirmation {
+    margin-bottom: 368px;
+}
+.formSignUp {
+    margin-bottom: 72px;
+}
+.formReset{
+    margin-bottom: 356px;
+}
+.formSuccess {
+    margin-bottom: 392px;
+}
+.formNewPassword {
+    margin-bottom: 224px;
+}
+@media screen and (max-width: 768px) {
+    .block {
+        display: flex;
+        flex-direction: column;
+        margin-top: 56px;
+        max-width: 688px;
+    }
+    .formResetAfterEmail {
+        margin-bottom: 252px;
+    }
+    .formSignIn {
+        margin-bottom: 112px;
+    }
+    .formConfirmation {
+        margin-bottom: 248px;
+    }
+    .formSignUp {
+        margin-bottom: 72px;
+    }
+    .formReset{
+        margin-bottom: 316px;
+    }
+    .formSuccess {
+        margin-bottom: 248px;
+    }
+    .formNewPassword {
+        margin-bottom: 184px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper {
+        max-width: 272px;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        margin-top: 48px;
+
+    }
+    .form {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #DADADA;
+    }
+    .formSignIn {
+        margin-bottom: 56px;
+    }
+    .formConfirmation {
+        margin-bottom: 0;
+    }
+    .formSignUp {
+        margin-bottom: 56px;
+    }
+    .formReset{
+        margin-bottom: 56px;
+    }
+    .formSuccess {
+        margin-bottom: 56px;
+    }
+    .formNewPassword {
+        margin-bottom: 56px;
+    }
+}

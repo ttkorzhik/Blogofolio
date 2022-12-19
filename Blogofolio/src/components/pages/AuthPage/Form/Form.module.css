@@ -1,0 +1,182 @@
+.form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DADADA;
+    width: 100%;
+}
+.signInBtn {
+    background-color: #2231AA;
+    border-radius: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: 0.3s;
+    padding: 16px 0;
+    border: none;
+    cursor: pointer;
+    margin: 48px 0 0 0;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    width: 544px;
+}
+.signInBtn:hover {
+    background: #5360CD;
+    color: #FFFFFF;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.noAccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    white-space: nowrap;
+}
+.textWithLink {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8D8E97;
+    padding-right: 5px;
+}
+.dark {
+    color: rgba(218, 218, 218, 1);
+}
+.linkForSign {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(34, 49, 170, 1);
+    text-decoration: none;
+}
+.linkForSignDark {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(83, 96, 205, 1);
+    text-decoration: none;
+}
+.forgot {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #313037;
+    padding-top: 16px;
+    text-decoration: none;
+    width: max-content;
+}
+.forgotDark {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    padding-top: 16px;
+    text-decoration: none;
+    width: max-content;
+}
+.forgotDark:hover {
+    color: rgba(83, 96, 205, 1);
+    text-decoration: none;
+}
+.forgot:hover {
+    color: #2231AA;
+    text-decoration: none;
+}
+.forgot:disabled {
+    color: #8D8E97;
+}
+.confirmation {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+    max-width: 314px;
+}
+.confirmationSpecial {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+    padding-bottom: 40px;
+}
+.confirmationSpecialDark {
+    padding-bottom: 40px;
+    color: white;
+}
+.confirmationDark {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .signInBtn {
+        width: 608px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .signInBtn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .confirmationSpecial {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .form {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #DADADA;
+    }
+    .inputs {
+        gap: 36px;
+    }
+
+    .confirmationSpecial {
+        padding-bottom: 24px;
+    }
+    .confirmationSpecialDark {
+        padding-bottom: 24px;
+        color: white;
+    }
+    .textWithLink {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 1px;
+    }
+    .linkForSign {
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: none;
+    }
+}

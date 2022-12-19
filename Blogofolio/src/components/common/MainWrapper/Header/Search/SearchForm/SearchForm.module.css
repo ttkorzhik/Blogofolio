@@ -1,0 +1,50 @@
+.SearchInputWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.hidden {
+    display: none;
+}
+.SearchInput {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    background: #5360CD;
+    padding: 30px 32px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.SearchInput:focus,
+.SearchInput:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.SearchInput:disabled {
+    background: #E8E8E8;
+    border-radius: 2px;
+    color: #8D8E97;
+}
+
+.SearchInput::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+.SearchInputBtn {
+    position: absolute;
+    right: 32px;
+    top: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.SearchInputSvg {
+
+}

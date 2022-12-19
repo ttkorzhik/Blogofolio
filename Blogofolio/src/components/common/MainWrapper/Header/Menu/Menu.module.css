@@ -1,0 +1,113 @@
+.menuWrapper {
+    position: absolute;
+    top: 84px;
+    left: -1px;
+    width: 236px;
+    background: #FFFFFF;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hidden {
+    display: none;
+}
+.dark {
+    background-color: #313037;
+    border-right: 1px solid white;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+}
+.theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 100%;
+}
+
+.svgBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0 28px 0;
+    border: 1px solid transparent;
+    border-top: 1px solid #E8E8E8;
+    cursor: pointer;
+    width: 118px;
+}
+.svgBlock:first-child {
+    border-right: 1px solid #E8E8E8;
+}
+
+.svgLight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+}
+.svgDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: black;
+}
+.svgActive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #4C4B5E;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+    padding: 28px 0 29px 0;
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+    text-decoration: none;
+    width: 100%;
+}
+.link.dark {
+    background-color: #313037;
+    color: white;
+}
+.link.dark:hover {
+    color: rgba(83, 96, 205, 1);
+}
+.link:hover {
+    color: #2231AA;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.route {
+    width: 100%;
+    text-decoration: none;
+}
+@media screen and (max-width: 350px) {
+    .menuWrapper {
+        width: 100%;
+    }
+    .dark {
+        background-color: #313037;
+        border-right: none;
+    }
+    .svgBlock {
+        width: 100%;
+    }
+}

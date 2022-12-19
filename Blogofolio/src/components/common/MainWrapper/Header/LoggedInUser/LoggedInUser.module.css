@@ -1,0 +1,61 @@
+.LoggedInUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 17px 0 19px 0;
+    text-decoration: none;
+    background: #2231AA;
+}
+.initials {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    background: #5360CD;
+    border-radius: 2px;
+    color: #FFFFFF;
+    padding: 7px 11px 7px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+}
+.fullName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding-right: 30px;
+    white-space: nowrap;
+}
+.fullNameWrap {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding-right: 30px;
+    white-space: pre-wrap;
+}
+.initialsBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+.vector {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+

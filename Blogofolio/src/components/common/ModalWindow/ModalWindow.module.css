@@ -1,0 +1,61 @@
+.modalWrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 886px;
+    min-height: 588px;
+    background: #FFFFFF;
+    position: relative;
+}
+.dark {
+    background-color: #313037;
+}
+.close {
+    position: absolute;
+    right: 21px;
+    top: 17px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    cursor: pointer;
+}
+.svg {
+    fill: #14141F;
+}
+.svgForDark {
+    fill: #FFFFFF;
+}
+
+.img {
+    width: 329px;
+    height: 314px;
+    object-fit: cover;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}

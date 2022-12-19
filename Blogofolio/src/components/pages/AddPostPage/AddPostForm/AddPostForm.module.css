@@ -1,0 +1,83 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    gap: 40px;
+}
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+.leftButtons {
+    display: flex;
+    gap: 24px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.blockPreview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preview {
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1093px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-top: 56px;
+        gap: 40px;
+    }
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 767px){
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-top: 48px;
+        gap: 32px;
+        width: 100%;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    .leftButtons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    .preview {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

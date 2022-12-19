@@ -1,0 +1,181 @@
+.iconsBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 24px;
+}
+.iconsLeftPartBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.iconsRightPartBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.like {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.number {
+    font-family: 'DINPro-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+    padding-left: 8px;
+    margin: 0;
+    min-width: 25px;
+}
+.numberDark {
+    color: #FFFFFF;
+}
+.iconBookmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    fill: #4C4B5E;
+    transition: 0.3s;
+}
+.dark {
+    fill: #FFFFFF;
+}
+.disabled {
+    fill: #8D8E97;
+}
+.svg {
+    fill: #4C4B5E;
+}
+
+.iconsBlockContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.iconsPartBlockContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.buttonLikeContent, .buttonDislikeContent {
+    display: flex;
+    align-items: center;
+    background: #E8E8E8;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    padding: 17px 33.32px 17px 33px;
+    transition: 0.3s;
+}
+
+.buttonBookContent {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #313037;
+    padding: 16px 32px 16px 36px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.3s;
+    background: #E8E8E8;
+}
+.active {
+    background: #5360CD;
+    border-radius: 2px;
+    color: #E8E8E8;
+}
+.activeDislike {
+    background: #FD3419;
+    border-radius: 2px;
+    color: #E8E8E8;
+}
+.activeDislike .svgSelectedContent{
+    fill: #E8E8E8;
+}
+.active .svgSelectedContent{
+    fill: #E8E8E8;
+}
+
+.buttonBookContent:hover, .buttonLikeContent:hover {
+    background: #5360CD;
+    border-radius: 2px;
+    color: #E8E8E8;
+}
+
+.svgSelectedContent {
+    fill: #4C4B5E;
+    transition: 0.3s;
+    background-color: #FD3419;
+}
+.buttonBookContent:hover .svgSelectedContent,.buttonLikeContent:hover .svgSelectedContent{
+    fill: #E8E8E8;
+}
+.buttonDislikeContent:hover {
+    background: #FD3419;
+    border-radius: 2px;
+    color: #E8E8E8;
+}
+.buttonDislikeContent:hover .svgSelectedContent{
+    fill: #E8E8E8;
+
+}
+.buttonBookContent:disabled, .buttonLikeContent:disabled, .buttonDislikeContent:disabled{
+    background: #E8E8E8;
+    color: #8D8E97;
+}
+.buttonBookContent:disabled .svgSelectedContent, .buttonLikeContent:disabled .svgSelectedContent, .buttonDislikeContent:disabled .svgSelectedContent{
+    fill: #8D8E97;
+}
+.buttonBookContent:disabled:hover .svgSelectedContent, .buttonLikeContent:disabled:hover .svgSelectedContent, .buttonDislikeContent:disabled:hover .svgSelectedContent {
+    fill: #8D8E97;
+}
+@media screen and (max-width: 600px) {
+    .iconsBlockContent {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .iconsPartBlockContent {
+        gap: 24px;
+    }
+
+    .buttonLikeContent, .buttonDislikeContent {
+        padding: 16px 50px;
+    }
+
+    .buttonBookContent {
+        padding: 16px 49.5px;
+        white-space: nowrap;
+    }
+}
+

@@ -1,0 +1,33 @@
+.blockRight {
+    position: relative;
+    z-index: 1;
+}
+.button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    fill: #4C4B5E;
+    width: 24px;
+    height: 24px;
+}
+.dark {
+    fill: #FFFFFF;
+}
+.darkMenu {
+    background-color: #4C4B5E;
+}
+.svg {
+    fill: #4C4B5E;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 33px;
+    min-width: 259px;
+    min-height: 83px;
+}

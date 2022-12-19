@@ -1,0 +1,31 @@
+.light {
+    background-color: #F3F3F3;
+
+}
+.dark {
+    background-color: #313037;
+}
+.wrapper {
+    max-width: 1120px;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    min-height: calc(100vh - 91px);
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+    }
+    .block {
+        padding: 0 40px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .wrapper {
+        width: 100%;
+    }
+    .block {
+        padding: 0 24px;
+    }
+}

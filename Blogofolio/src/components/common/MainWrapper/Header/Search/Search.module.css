@@ -1,0 +1,22 @@
+.searchBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #5360CD;
+    border-right: 1px solid #5360CD;
+    cursor: pointer;
+}
+
+.searchImg {
+    display: block;
+    background: none
+}
+.searchLink {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

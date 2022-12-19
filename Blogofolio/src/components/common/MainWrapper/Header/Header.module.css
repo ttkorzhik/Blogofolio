@@ -1,0 +1,20 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #2231AA;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    z-index: 2;
+    height: 84px;
+}
+.rightBlock {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 645px) {
+    .user {
+        display: none;
+    }
+}

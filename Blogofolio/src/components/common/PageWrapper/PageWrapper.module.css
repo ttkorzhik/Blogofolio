@@ -1,0 +1,10 @@
+.wrapper {
+
+    padding-top: 72px;
+
+}
+@media screen and (max-width: 320px) {
+    .wrapper {
+        padding-top: 56px;
+    }
+}

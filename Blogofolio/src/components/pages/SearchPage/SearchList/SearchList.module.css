@@ -1,0 +1,29 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+}
+.emptyMatches {
+    font-family: 'Inter';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 80px;
+    color: #313037;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .search {
+        padding-top: 56px;
+    }
+}
+
+@media screen and (max-width: 527px) {
+    .search {
+        display: flex;
+        flex-direction: column;
+        padding-top: 48px;
+    }
+}

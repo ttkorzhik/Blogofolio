@@ -1,0 +1,51 @@
+.link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+.none {
+    display: none;
+}
+.top {
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+    width: 100%;
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8E97;
+    padding-left: 10px;
+    border-left: 3px solid #8D8E97;
+}
+
+.link:hover {
+    color: #2231AA;
+}
+.link:disabled {
+    color: #8D8E97;
+}
+.dark {
+    color: #FFFFFF;
+}
+
+.dark:hover {
+    color: rgba(83, 96, 205, 1);
+}
+
+@media screen and (max-width: 320px) {
+    .top {
+        padding-bottom: 28px;
+    }
+}

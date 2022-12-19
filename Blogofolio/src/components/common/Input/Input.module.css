@@ -1,0 +1,136 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 20px;
+    color: #313037;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.dark {
+    color: white;
+}
+.input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 18px 20px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    width: 544px;
+    border: 2px solid transparent;
+}
+
+input:focus,
+input:focus-visible {
+    border: 2px solid #DADADA;
+    outline: unset;
+}
+
+input:disabled {
+    background: #E8E8E8;
+    border-radius: 2px;
+    color: #8D8E97;;
+}
+
+input::placeholder {
+    color: #8D8E97;
+}
+
+.errorMessage {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FD3419;
+}
+.error {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 18px 20px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    width: 544px;
+    border: 2px solid #FD3419;
+    border-radius: 2px;
+}
+.inputAdd {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 18px 20px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    width: 544px;
+    border: 2px solid transparent;
+}
+.inputADD:focus,
+.inputADD:focus-visible {
+    border: 2px solid #DADADA;
+    outline: unset;
+}
+
+.inputADD:disabled {
+    background: #E8E8E8;
+    border-radius: 2px;
+    color: #8D8E97;;
+}
+
+.inputADD::placeholder {
+    color: #8D8E97;
+}
+
+@media screen and (max-width: 768px) {
+    .error {
+        width: 608px;
+    }
+    .input {
+        width: 608px;
+    }
+    .inputAdd {
+        width: 688px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .inputWrapper {
+        width: 100%;
+    }
+    .error {
+        width: 100%
+    }
+    .input {
+        width: 100%;
+    }
+    .inputAdd {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .input {
+        width: 224px
+    }
+    .inputAdd {
+        width: 272px
+    }
+}

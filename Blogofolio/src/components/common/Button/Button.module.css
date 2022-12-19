@@ -1,0 +1,187 @@
+.signInBtn {
+    background: #2231AA;
+    border-radius: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: 0.3s;
+    padding: 16px 0;
+    border: none;
+    cursor: pointer;
+    margin: 48px 0 0 0;
+    white-space: nowrap;
+    width: 100%;
+}
+.signInBtn:hover {
+    background: #5360CD;
+    color: #FFFFFF;
+}
+.signInBtn:disabled {
+    background: #E8E8E8;
+    color: #8D8E97;
+}
+
+.menuBtnSign {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 29px 0 30px 0;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 2px;
+    color: #313037;
+    border: none;
+    background: #E8E8E8;
+    transition: 0.3s;
+    width: 100%;
+
+}
+.menuBtnSign:hover {
+    background: #DADADA;
+    color: #313037;
+}
+.menuBtnSign:disabled {
+    background: #E8E8E8;
+    color: #8D8E97;
+}
+.cancel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #313037;
+    padding: 16px 32px;
+    background: #E8E8E8;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cancel:hover {
+    background: #DADADA;
+    border-radius: 2px;
+}
+.cancel:disabled {
+    color: #8D8E97;
+    background: #E8E8E8;
+    border-radius: 2px;
+}
+
+.addPost {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #2231AA;
+    border-radius: 2px;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.addPost:hover, .edit:hover {
+    background: #5360CD;
+}
+.addPost:disabled {
+    background: #E8E8E8;
+    color: #8D8E97;
+}
+
+.delete {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 16px 0;
+    border: 1px solid transparent;
+    color: #FD3419;
+    cursor: pointer;
+    transition: 0.3s;
+    background: none;
+}
+.delete:hover {
+    border-radius: 2px;
+    border: 1px solid #E8E8E8;
+}
+.delete:disabled {
+    color: #E8E8E8;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+    padding: 28px 0 29px 0;
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+    text-decoration: none;
+    width: 100%;
+    cursor: pointer;
+}
+.dark {
+    background-color: #313037;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 28px 0 29px 0;
+    border: 1px solid #E8E8E8;
+    text-decoration: none;
+    width: 100%;
+    cursor: pointer;
+}
+.dark:hover {
+    color: rgba(83, 96, 205, 1);
+}
+.link:hover {
+    color: #2231AA;
+}
+.edit {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #2231AA;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 767px) {
+    .delete, .addPost, .cancel {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .delete, .addPost, .cancel {
+        width: 272px;
+    }
+}

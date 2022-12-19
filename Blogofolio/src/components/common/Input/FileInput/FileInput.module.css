@@ -1,0 +1,147 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #313037;
+}
+.errorMessage {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FD3419;
+    padding-top: 16px;
+}
+.inputFile.error {
+    border: 2px solid red;
+}
+
+.inputFile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    width: 544px;
+    margin-top: 8px;
+    border: 2px solid white;
+}
+.inputFileText {
+    display: inline-block;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #313037;
+    padding: 20px 0 16px 22.15px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    width: 318px;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.placeholder {
+    color: rgba(141, 142, 151, 1);
+}
+.inputFileBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #313037;
+    background: #F3F3F3;
+    border-radius: 0 2px 2px 0;
+    padding: 16px 30px 12px 32px;
+    cursor: pointer;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+.input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+.cross {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    padding: 20px 0 16px 0;
+}
+.svg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Focus */
+.input:focus + .inputFileBtn {
+    outline: unset;
+}
+
+/* Hover/active */
+.inputFile:hover .inputFileBtn {
+    background-color: #E8E8E8;
+}
+.inputFile:active .inputFileBtn {
+    background-color: #F3F3F3;
+}
+
+/* Disabled */
+.input:disabled + .inputFileBtn {
+    background-color: #F3F3F3;
+    color: #8D8E97;
+}
+.disabled{
+    background-color: #E8E8E8;
+    color: #8D8E97;
+}
+.inputSvg {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .inputFileText {
+        width: 100%;
+    }
+    .inputFile {
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .inputFileBtn {
+        display: none;
+    }
+    .inputSvg {
+        display: flex;
+        background: #F3F3F3;
+        border-radius: 2px;
+        padding: 14px;
+        border: 2px solid white;
+        fill: #000000;
+    }
+}
