@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Blogofolio/static/css/main.22385aaf.css",
+    "main.js": "/Blogofolio/static/js/main.82166a2e.js",
+    "static/js/787.1bfb9c7e.chunk.js": "/Blogofolio/static/js/787.1bfb9c7e.chunk.js",
+    "static/media/dinpro-bold.svg": "/Blogofolio/static/media/dinpro-bold.ad922c6f23faf0067235.svg",
+    "static/media/dinpro-bold.eot": "/Blogofolio/static/media/dinpro-bold.7e967744abf029b23dcb.eot",
+    "static/media/dinpro-bold.ttf": "/Blogofolio/static/media/dinpro-bold.3bb1d65ee84d8fa092e0.ttf",
+    "static/media/dinpro-bold.woff": "/Blogofolio/static/media/dinpro-bold.66677df32b54f2e83354.woff",
+    "static/media/dinpro-bold.woff2": "/Blogofolio/static/media/dinpro-bold.e093a7d9a414dc096c4c.woff2",
+    "static/media/Vector.svg": "/Blogofolio/static/media/Vector.32285e97375269699f96512c67d00ac9.svg",
+    "index.html": "/Blogofolio/index.html",
+    "static/media/user.svg": "/Blogofolio/static/media/user.a3867c46a05515d83bd9fe2a072c9723.svg",
+    "static/media/search.svg": "/Blogofolio/static/media/search.022eba652fa6c879d89829a536cb38cb.svg",
+    "main.22385aaf.css.map": "/Blogofolio/static/css/main.22385aaf.css.map",
+    "main.82166a2e.js.map": "/Blogofolio/static/js/main.82166a2e.js.map",
+    "787.1bfb9c7e.chunk.js.map": "/Blogofolio/static/js/787.1bfb9c7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22385aaf.css",
+    "static/js/main.82166a2e.js"
+  ]
+}
