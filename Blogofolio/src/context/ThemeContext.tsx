@@ -25,7 +25,7 @@ const ThemeProvider:FC<WithChildren> = ({ children }) =>  {
         const currentTheme = localStorage.getItem("theme");
         if (currentTheme) {
             setTheme(currentTheme);
-        }
+        } else setTheme(ThemeVariant.dark)
     },[theme])
 
     const handleSetTheme = (newTheme: ThemeVariant) => {
